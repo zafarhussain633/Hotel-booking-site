@@ -14,7 +14,7 @@ const getSuggestedCity = (cityName) => async dispatch => {
             params: { locale: 'en-gb', name: cityName },
             headers: {
                 'x-rapidapi-host': 'booking-com.p.rapidapi.com',
-                'x-rapidapi-key': 'ecf3fcb31bmsh6e86c6d6b0a1fc2p1a94cejsndef9a9c6e284'
+                'x-rapidapi-key': ''
             }
         };
 
@@ -31,7 +31,7 @@ const getSuggestedCity = (cityName) => async dispatch => {
             errMsg: err
         })
     }
-
+   //ecf3fcb31bmsh6e86c6d6b0a1fc2p1a94cejsndef9a9c6e284  exceeded monthly limit on this api key
 
 }
 
